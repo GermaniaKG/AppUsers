@@ -23,7 +23,7 @@
   },
 
 	"require": {
-		"germania-kg/users": "^1.0",
+		"germania-kg/users": "^1.1",
 		"germania-kg/authentication": "^1.0",
 		"germania-kg/permanent-authentication": "^1.0"
 	},
