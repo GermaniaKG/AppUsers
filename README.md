@@ -20,22 +20,20 @@
 $ composer require germania-kg/app-users
 ```
 
+## Development
 
-##Development
-
-Grab your clone and install PHPUnit and stuff:
-
-```bash:
-$ git clone https://github.com/GermaniaKG/AppUsers.git app-users
-$ cd app-users
+```bash
+$ git clone https://github.com/GermaniaKG/AppUsers.git
+$ cd AppUsers
 $ composer install
 ```
 
+## Unit tests
 
-##Testing
-Well, no tests specified so far. When done:
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
 
-- Copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs.
-- In project root, run `phpunit`
-
-
+```bash
+$ composer test
+# or
+$ vendor/bin/phpunit
+```
