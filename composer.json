@@ -23,13 +23,22 @@
   },
 
 	"require": {
+		"php": "^5.6|^7.0",
 		"germania-kg/users": "^1.1",
 		"germania-kg/authentication": "^1.0",
 		"germania-kg/permanent-authentication": "^1.0"
 	},
 
 	"require-dev": {
-			"satooshi/php-coveralls": "^1.0",
-			"phpunit/phpunit": "^5.2"
-	}
+        "php-coveralls/php-coveralls": "^2.0",
+        "phpunit/phpunit": "^5.7|^6.0|^7.0"
+	},
+    
+    "scripts": {
+          "phpunit": "phpunit --colors=auto",
+  
+          "test": [
+              "@phpunit"
+          ]
+    }
 }
